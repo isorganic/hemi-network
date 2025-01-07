@@ -3,7 +3,7 @@ hemi network fetching fee, jadi fee akan berubah setiap waktu yang ditentukan
 
 ## Instalasi
 1. Git clone repository
-```bash git clone https://github.com/isorganic/hemi-network```
+```bgit clone https://github.com/isorganic/hemi-network```
 
 3. Masuk ke directory
 ``` cd hemi-network ```
