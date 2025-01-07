@@ -22,6 +22,7 @@
    nano auto-fee.sh
 tambahkan privat key di ```export POPM_BTC_PRIVKEY= (GANTI DENGA PRIVAT KEY TANPA TANDA KURUNG)```.
 Lalu setting waktu auto feching fee di ``` sleep 600 ``` sesuikan keinginan, satuan dalam second/detik misalnya 10 menit = 600, 60 menit = 3600.
+
 9. Run CLI Miner
 ```bash
 chmod ./auto-fee.sh && ./auto-fee.sh
