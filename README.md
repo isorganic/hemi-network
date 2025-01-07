@@ -15,5 +15,14 @@
    ```bash
    cd heminetwork_v0.8.0_linux_amd64
 6. Langkah selanjutnya copy file fetchig fee
-   
+   ```bash
+   cp hemi-network/auto-fee.sh .
+7. Setelah itu edit file auto-fee.sh
+   ```bash
+   nano auto-fee.sh
+tambahkan privat key di ```export POPM_BTC_PRIVKEY= (GANTI DENGA PRIVAT KEY TANPA TANDA KURUNG)``` 
+lalu setting waktu auto teching fee di ``` sleep 600 ``` sesuikan keinginan, satuan dalam second/detik
+9. Run CLI Miner
+```bash
+chmod ./auto-fee.sh && ./auto-fee.sh
 
